@@ -24,11 +24,11 @@
   }
 }
  */
- body{
+body {
   overflow: hidden;
- }
+}
 
- #particles-js{
-   width: 100vw;
-   height: 100vh;
- }
+#particles-js {
+  width: 100vw;
+  height: 100vh;
+}
