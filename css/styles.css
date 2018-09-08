@@ -1,3 +1,25 @@
-body{
-    background-color: bisque;
+body {
+  background: linear-gradient(
+    180deg,
+    #00beff,
+    #ff7cf7,
+    #fff500,
+    #ff5800,
+    #00ffa3,
+  );
+  background-size: 1200% 1200%;
+
+  animation: AnimationName 50s ease infinite;
+
+  @keyframes AnimationName {
+    0% {
+      background-position: 50% 0%;
+    }
+    50% {
+      background-position: 50% 100%;
+    }
+    100% {
+      background-position: 50% 0%;
+    }
+  }
 }
