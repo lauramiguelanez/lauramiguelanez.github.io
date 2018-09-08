@@ -29,6 +29,9 @@ body {
 }
 
 #particles-js {
-  width: 100vw;
-  height: 100vh;
+  position: absolute !important;
+  width: 100% !important;
+  height: auto !important;
+  left: 0;
+  top: 0;
 }
