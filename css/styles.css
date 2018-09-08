@@ -1,31 +1,12 @@
-/* body {
-  background: linear-gradient(
-    180deg,
-    #00beff,
-    #ff7cf7,
-    #fff500,
-    #ff5800,
-    #00ffa3,
-  );
-  background-size: 1200% 1200%;
+@import url('https://fonts.googleapis.com/css?family=Nova+Square');
 
-  animation: AnimationName 50s ease infinite;
-
-  @keyframes AnimationName {
-    0% {
-      background-position: 50% 0%;
-    }
-    50% {
-      background-position: 50% 100%;
-    }
-    100% {
-      background-position: 50% 0%;
-    }
-  }
-}
- */
 body {
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 #particles-js {
@@ -34,4 +15,18 @@ body {
   height: 100% !important; /* auto */
   left: 0;
   top: 0;
+  z-index: 0 !important;
+}
+
+#bio{
+  z-index: 30;
+  width: 50vw;
+  margin: auto auto;
+  font-family: 'Nova Square', cursive;
+  transform-origin: right top;
+  transform: rotate(-2.5deg);
+}
+p{
+  display: inline-block;
+  margin: 10px 0;
 }
