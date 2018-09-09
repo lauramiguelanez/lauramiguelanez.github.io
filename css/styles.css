@@ -7,6 +7,8 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
+  flex-direction: column;
+  font-family: "Nova Square", cursive;
 }
 
 #particles-js {
@@ -17,29 +19,55 @@ body {
   top: 0;
   z-index: 0 !important;
 }
+a{
+
+}
+ul {
+  display: inline-block;
+  margin: 5vh;
+}
+li {
+  display: inline-block;
+  margin: 0 2vw;
+}
 main {
+  width: 100%;
+  height: 70vh;
+
   display: flex;
   align-content: center;
   justify-content: center;
 }
 header {
-  display: none;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
 }
 footer {
-  display: none;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
 }
-
 #bio {
   z-index: 30;
   width: 50vw;
   margin: auto auto;
+  font-size: 1.4vw;
   font-family: "Nova Square", cursive;
   transform-origin: right top;
   transform: rotate(-2.5deg);
 }
 p {
   display: inline-block;
-  margin: 10px 0;
+  margin: 5px 0;
+}
+footer ul{
+  align-self: flex-end;
+}
+.contact{
+  display: flex;
 }
 
 .underlined {
@@ -52,12 +80,21 @@ p {
   background-position: 0 1.2em;
   background-size: 0 100%;
   background-repeat: no-repeat;
-  transition: background .5s;
+  transition: background 0.5s;
 }
 .underlined .offset {
   background-position: 0 0.2em;
-  box-shadow: inset 0 -.5em 0 0 white;
+  box-shadow: inset 0 -0.5em 0 0 white;
 }
 .offset:hover {
   background-size: 100% 100%;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a :hover{
+  color: black;
+  text-decoration: none;
+  background-image: linear-gradient(to right, yellow 0, yellow 100%);
 }
