@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Nova+Square");
 @import url("https://fonts.googleapis.com/css?family=Nova+Cut");
 
-/* @media (orientation:lanscape){
-  #bio {
-    width: 50%;
-    font-size: 1.1vw;
-  }
-}
- */
-/* @media all { */
 body {
   width: 100vw;
   height: 100vh;
@@ -80,7 +72,7 @@ footer ul {
 .underlined {
   color: black;
   flex: 1;
-  font-size: 1.8em;
+  font-size: 1.1em;
   line-height: 1.2;
   text-decoration: none;
   background-image: linear-gradient(to right, yellow 0, yellow 100%);
@@ -102,14 +94,12 @@ a {
 }
 /* a :hover{
 } */
-/* }
- */
-
 
  @media /* (max-width: 500px) and */ (orientation: portrait) {
   #bio {
-    width: 75vw;
-    font-size: 2.5vw;
+    width: 80vw;
+    font-size: 1.7vh;
     overflow: hidden;
   }
+
 }
